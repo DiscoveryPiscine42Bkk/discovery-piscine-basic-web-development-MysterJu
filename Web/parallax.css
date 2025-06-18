@@ -25,18 +25,27 @@ body, html {
 }
 
 .bg1 {
-    background-image: url('dr1.jpg');
+    background-image: url('https://i.pinimg.com/736x/fd/76/ff/fd76ff564be064d99c64c7098e06de56.jpg');
+    
+    
 }
 
 .bg2 {
-    background-image: url('dr2.webp');
-}
+    background-image: url('https://i.pinimg.com/736x/67/df/5e/67df5e5a7bf11d56045aa801e56947af.jpg');
+  
 
 /* Middle content block */
 .content {
+    width: 50%;
     background-color: black;
     color: white;
     padding: 100px 20px;
     text-align: center;
     font-size: 1.5em;
 }
+p {
+    text-align: center;
+    }
+    .mainpage {
+        display: flex;
+    }
