@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parallax Web Page</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .parallax {
+      background-image: url('https://c4.wallpaperflare.com/wallpaper/628/351/630/5bd2b86ce8225-wallpaper-preview.jpg');
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 20;
+    }
+
+    /* Middle black block */
+    .content {
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 20;
+    }
+
+    /* Bottom parallax section */
+    .parallax2 {
+      background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202011/0919/MZ92W6yp1LjqgN9crPaZxPhM.png');
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 20;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="parallax">
+    Doraemon
+  </div>
+
+  <div class="content">
+    Friends
+  </div>
+
+  <div class="parallax2">
+    Forever
+  </div>
+
+</body>
+</html>

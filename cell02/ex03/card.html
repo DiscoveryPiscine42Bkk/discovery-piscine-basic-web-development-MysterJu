@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: white;
+      width: 300px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .login {
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+
+    .description {
+      color: gray;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .socials {
+      margin-bottom: 20px;
+    }
+
+    .socials img {
+      width: 24px;
+      margin: 0 5px;
+    }
+
+    .contact-button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse; /* Makes the table invisible */
+    }
+
+    td {
+      border: none;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>User Profile Card</h2>
+
+    <table>
+      <tr>
+        <td style="text-align: center;">
+          <img src="https://i0.wp.com/yumetwinsblog.wpcomstaging.com/wp-content/uploads/2021/12/f73a8457-a8ef-4b21-8fd7-681dd5790d79_unnamed284329.jpg?fit=640%2C361&ssl=1" alt="User Profile Card" class="profile-pic"><br>
+          <div class="login">Orange
+          <div class="description">Intra: nsankum
+        </td>
+      </tr>
+    </table>
+
+    <div class="socials">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Twitter">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+    </div>
+
+   <a href="https://www.instagram.com/orangenph_?igsh=dG9xb3l4dzFyYml5" target="_blank">
+  <button class="contact-button">Contact</button>
+</a>
+
+</body>
+</html>
+
