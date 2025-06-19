@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Card</title>
+  <style>
+    body {
+      background-color: #fff8e1;
+      margin: 0;
+      padding: 50px 20px;
+      font-family: sans-serif;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .left-column {
+      width: 320px;
+    }
+
+    .right-column {
+      max-width: 700px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    .card h1 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .login {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+
+    .socials img {
+      width: 24px;
+      height: 24px;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    .contact-btn {
+      background-color: black;
+      color: white;
+      padding: 10px 25px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .contact-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .section1 {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .section1 h1 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .section1 h2 {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .section1 img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .section {
+      background-color: white;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      margin: 0;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .home-btn {
+      background-color: #800020;
+      color: white;
+      padding: 10px 25px;
+      font-size: 1rem;
+      position: fixed;
+      bottom: 20px;
+      left: 60%;
+      transform: translateX(-50%);
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+      .friend-btn {
+      background-color: #800020;
+      color: white;
+      padding: 10px 25px;
+      font-size: 1rem;
+      position: fixed;
+      bottom: 20px;
+      left: 40%;
+      transform: translateX(-50%);
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Left: Profile -->
+    <div class="left-column">
+      <div class="card">
+        <h1>User profile Card</h1>
+        <img src="https://scontent-mia3-3.cdninstagram.com/v/t51.75761-19/505084298_18314151991235914_391551073211700546_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=1-7&_nc_sid=bf7eb4&_nc_ohc=DhNEZDZZUtIQ7kNvwHTsaoT&_nc_oc=AdnmgJf6BLiY6zpaqaulmdyoFMDA3GhPotjFgmVevSmk21m9mwlx2ZinuccH5nV6SPo&_nc_zt=24&_nc_ht=scontent-mia3-3.cdninstagram.com&_nc_gid=jNRN0DCAayusUUlu7aK4Gw&oh=00_AfPxV9hpqPYWicEObxmVZ5CFwtc0B9ghZFx1AkJRdkW7EQ&oe=6857FB6A" alt="Profile Picture" class="profile-pic" />
+        <div class="login">@orangeph_</div>
+        <h3>Intra: nsankum</h3>
+        <div class="login">Orange</div>
+        <div class="socials">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" />
+        </div>
+        <br />
+        <a href="https://www.instagram.com/orangenph_?igsh=dG9xb3l4dzFyYml5" class="contact-btn">Contact</a>
+      </div>
+    </div>
+
+    <!-- Right: Faculty info -->
+    <div class="right-column">
+      <div class="section1">
+        <h1>Faculty of Education and Industrial</h1>
+        <h2>B.S.Ind.Ed. (Interior Environmental Design)</h2>
+        <img src="int.jpg" alt="Faculty Image">
+      </div>
+
+      <div class="section">
+        <h2>About the Program</h2>
+        <p>
+          This program integrates both creativity and technical knowledge in the field of interior environmental design.
+          Students will learn about design principles, materials, space planning, lighting, and how to create functional and aesthetic interior environments.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Contact Faculty</h2>
+        <p>
+          For more information, please visit the official faculty website.
+        </p>
+        <a href="https://siet.kmitl.ac.th/node/65" target="_blank" class="contact-btn">Visit SIET Website</a>
+      </div>
+    </div>
+  </div>
+
+  <a href="Rush.html" class="home-btn">Back to Home</a>
+  <a href="mem2.html" class="friend-btn">New</a>
+
+</body>
+</html>
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rush Project</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .parallax {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2em;
+      text-shadow: 1px 1px 4px black;
+    }
+
+    .parallax-1 {
+      background-image: url('mp1.jpg');
+    }
+
+    .parallax-2 {
+      background-image: url('mp2.jpg');
+    }
+
+    .content {
+      background-color: black;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+  <style>
+    .boxmp {
+       display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+    }
+  </style>
+  <style>
+    .box {
+      background-color: white;
+      color: black;
+      padding: 40px;
+      width: 200px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+    }
+  </style>
+  <style>
+  .content {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff8e1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+
+  .boxmp {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .box h4 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #800020;
+  }
+
+  .box p {
+    margin: 0;
+    font-size: 1rem;
+  }
+</style>
+<div class="parallax parallax-1">
+    <div>Welcome To Our Rush Project </div>
+  </div>
+
+<div class="content">
+  <p>Let's get to know us</p>
+  <div class="boxmp">
+    <a href="mem1.html" class="box">
+      <h4>First Member</h4>
+      <p>Orange</p>
+    </a>
+    <a href="mem2.html" class="box">
+      <h4>Second Member</h4>
+      <p>New</p>
+    </a>
+  </div>
+</div>
+
+  <div class="parallax parallax-2">
+    <div>Thank you for scrolling!</div>
+  </div>
+
+</body>
+</html>
+
+
